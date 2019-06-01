@@ -17,7 +17,7 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/first-post/</guid>
-      <description>const barWidth = 10; let lastBar = -1; function setup() { createCanvas(300, 160); colorMode(HSB, height, height, height); noStroke(); background(0); } function draw() { let whichBar = Math.floor(mouseX / barWidth); if (whichBar !== lastBar) { let barX = whichBar * barWidth; fill(mouseY, height, height); rect(barX, 0, barWidth, height); lastBar = whichBar; } }   </description>
+      <description> // p5.js const barWidth = 10; let lastBar = -1; function setup() { createCanvas(300, 160); colorMode(HSB, height, height, height); noStroke(); background(0); } function draw() { let whichBar = Math.floor(mouseX / barWidth); if (whichBar !== lastBar) { let barX = whichBar * barWidth; fill(mouseY, height, height); rect(barX, 0, barWidth, height); lastBar = whichBar; } }  </description>
     </item>
     
     <item>
@@ -26,10 +26,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>Hello, my name is Nicolas Rivollet.
+      <description>Hi, my name is Nicolas Rivollet.
 I have diverse interests in technology, innovation and economy.
-This blog is to remember things which I already did or currently learning or for which I have future intent.
-English is not my native language, so feel free to correct me.</description>
+This blog is to remember things which I already did or currently learning or for which I have future intent.</description>
     </item>
     
   </channel>
