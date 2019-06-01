@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>p5.js on Nicolas Rivollet</title>
+    <link>/tags/p5.js/</link>
+    <description>Recent content in p5.js on Nicolas Rivollet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/p5.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Color Hue</title>
+      <link>/posts/first-post/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first-post/</guid>
+      <description>const barWidth = 10; let lastBar = -1; function setup() { createCanvas(300, 160); colorMode(HSB, height, height, height); noStroke(); background(0); } function draw() { let whichBar = Math.floor(mouseX / barWidth); if (whichBar !== lastBar) { let barX = whichBar * barWidth; fill(mouseY, height, height); rect(barX, 0, barWidth, height); lastBar = whichBar; } }   </description>
+    </item>
+    
+  </channel>
+</rss>
