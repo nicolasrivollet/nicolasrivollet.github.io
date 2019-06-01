@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>First Post</title>
+      <title>Color Hue</title>
       <link>/posts/first-post/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/first-post/</guid>
-      <description>La la la</description>
+      <description>const barWidth = 10; let lastBar = -1; function setup() { createCanvas(300, 160); colorMode(HSB, height, height, height); noStroke(); background(0); } function draw() { let whichBar = Math.floor(mouseX / barWidth); if (whichBar !== lastBar) { let barX = whichBar * barWidth; fill(mouseY, height, height); rect(barX, 0, barWidth, height); lastBar = whichBar; } }   </description>
     </item>
     
   </channel>

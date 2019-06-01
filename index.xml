@@ -6,9 +6,19 @@
     <description>Recent content on Nicolas Rivollet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Color Hue</title>
+      <link>/posts/first-post/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first-post/</guid>
+      <description>const barWidth = 10; let lastBar = -1; function setup() { createCanvas(300, 160); colorMode(HSB, height, height, height); noStroke(); background(0); } function draw() { let whichBar = Math.floor(mouseX / barWidth); if (whichBar !== lastBar) { let barX = whichBar * barWidth; fill(mouseY, height, height); rect(barX, 0, barWidth, height); lastBar = whichBar; } }   </description>
+    </item>
     
     <item>
       <title>About</title>
