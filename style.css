@@ -1,0 +1,4 @@
+.logo__cursor {
+  background-color: #0f3d0f;
+  animation: cursor 3s infinite;
+}
