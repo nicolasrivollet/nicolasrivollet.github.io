@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nicolas Rivollet</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Nicolas Rivollet</description>
+    <title>Posts on Nicolas Rivollet</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Nicolas Rivollet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>bj</title>
-      <link>/tags/bj/</link>
+      <title>First Post</title>
+      <link>/posts/first-post/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bj/</guid>
-      <description></description>
+      <guid>/posts/first-post/</guid>
+      <description>La la la</description>
     </item>
     
   </channel>
